@@ -1,0 +1,67 @@
+SHOULDER QA: MEDICAL DEVICE BUG HUNTER
+1. Concept du jeu
+Développe un mini-jeu indépendant (indie) intitulé « Shoulder QA — Mission Implant », centré sur l’assurance qualité des dispositifs médicaux orthopédiques, notamment les implants de l’épaule.
+Le joueur incarne un ingénieur assurance qualité travaillant dans une entreprise fictive spécialisée dans les prothèses d’épaule.
+Sa mission est de contrôler la qualité des implants, d'identifier les anomalies, d'examiner les dossiers techniques, de vérifier les résultats d'essais simulés et de détecter les erreurs documentaires avant la libération fictive d'un produit.
+Le jeu doit être à la fois ludique, immersif et pédagogique, destiné aux étudiants, aux ingénieurs qualité et aux personnes qui découvrent l'industrie des dispositifs médicaux.
+Les situations sont simulées à des fins de formation. Le jeu ne doit jamais servir à décider de la sécurité réelle d'un implant ou à remplacer une validation réglementaire professionnelle.
+2. Direction artistique indie
+Créer une identité visuelle inspirée des jeux indépendants modernes, avec une ambiance de laboratoire orthopédique futuriste.
+Style graphique :
+<ul><li>Pixel art détaillé ou illustration 2D minimaliste.</li><li>Laboratoire de dispositifs médicaux, paillasses, instruments de mesure et implants d'épaule.</li><li>Modèles 3D stylisés représentant une tête humérale, une tige humérale, une glène et une prothèse inversée.</li><li>Palette bleu nuit, gris titane, blanc médical et violet.</li><li>Vert pour les contrôles réussis, orange pour les points à examiner et rouge pour les anomalies.</li><li>Animations satisfaisantes lorsqu'un défaut est découvert.</li><li>Interface inspirée d'un laboratoire de contrôle qualité et d'un logiciel de gestion des non-conformités.</li></ul>Le résultat doit ressembler à un véritable jeu indie, et non à un logiciel professionnel austère.
+3. Gameplay principal
+Le joueur progresse dans un laboratoire virtuel et réalise des missions courtes de contrôle qualité.
+Chaque mission comprend :
+<ol><li>Une présentation du dispositif médical fictif.</li><li>Un objectif de contrôle.</li><li>Une série d'indices, de documents ou de résultats d'essais simulés.</li><li>Des interactions permettant d'identifier une anomalie.</li><li>Une décision à prendre : accepter le résultat simulé, demander une investigation ou bloquer temporairement le dossier.</li><li>Une correction pédagogique expliquant la bonne réponse.</li></ol>Les missions durent entre 1 et 3 minutes.
+Le joueur peut cliquer sur les composants d'un implant illustré, comparer des mesures, examiner des documents et associer un défaut à une catégorie de risque.
+4. Les missions spécialisées sur les implants d'épaule
+Mission 1 — Inspection visuelle de l'implant
+Présenter une prothèse d'épaule stylisée avec plusieurs éléments interactifs.
+Le joueur doit détecter des anomalies fictives :
+<ul><li>Rayure suspecte sur une surface.</li><li>Défaut visuel sur une pièce.</li><li>Étiquette d'identification incorrecte.</li><li>Composant qui ne correspond pas à la référence attendue.</li></ul>Cliquer sur une anomalie pour la signaler et expliquer pourquoi elle nécessite une investigation.
+Mission 2 — Contrôle dimensionnel
+Afficher une fiche de contrôle contenant des dimensions fictives et des limites d'acceptation explicitement définies pour le scénario.
+Le joueur doit :
+<ul><li>Comparer les mesures aux critères spécifiés.</li><li>Identifier une valeur hors tolérance.</li><li>Repérer une unité de mesure incorrecte.</li><li>Détecter une erreur de transcription.</li></ul>Les seuils sont propres au scénario pédagogique et ne doivent pas être présentés comme des spécifications réelles d'un implant commercial.
+Mission 3 — Contrôle de traçabilité
+Présenter le dossier d'un implant fictif avec :
+<ul><li>Référence produit.</li><li>Numéro de lot.</li><li>Numéro de série, si applicable au scénario.</li><li>Certificat matière.</li><li>Historique de fabrication.</li><li>Rapport d'inspection.</li></ul>Le joueur doit repérer les incohérences et identifier les documents manquants.
+Mission 4 — Essais mécaniques simulés
+Présenter des graphiques simplifiés de résultats d'essais mécaniques, accompagnés des critères d'acceptation fictifs du scénario.
+Le joueur doit détecter :
+<ul><li>Un résultat qui dépasse une limite spécifiée.</li><li>Un essai incomplet.</li><li>Une courbe incohérente avec le protocole.</li><li>Un rapport contenant une conclusion qui ne correspond pas aux résultats.</li></ul>Ne pas présenter les données générées comme des preuves de sécurité clinique ou comme des résultats expérimentaux réels.
+Mission 5 — Non-conformité et CAPA
+Le joueur découvre une anomalie sur un composant d'implant.
+Il doit :
+<ul><li>Décrire la non-conformité.</li><li>Choisir le niveau d'investigation approprié.</li><li>Identifier les éléments de preuve à collecter.</li><li>Distinguer la correction immédiate de l'analyse de cause racine.</li><li>Proposer une action corrective et préventive (CAPA).</li><li>Vérifier si l'action semble efficace dans le scénario.</li></ul>Éviter de révéler la cause racine avant que le joueur ait terminé son analyse.
+Mission 6 — Revue du dossier de lot
+Présenter un dossier fictif de fabrication et de contrôle d'un implant d'épaule.
+Le joueur doit vérifier :
+<ul><li>La cohérence des références.</li><li>La présence des enregistrements requis par le scénario.</li><li>La signature ou l'approbation des étapes concernées.</li><li>La résolution des non-conformités ouvertes.</li><li>La cohérence entre les résultats et la conclusion finale.</li></ul>Le joueur ne peut terminer la mission qu'après avoir identifié les éléments bloquants du scénario.
+Mission 7 — Audit qualité
+Organiser un audit interactif dans un laboratoire fictif.
+Le joueur doit repérer des situations telles que :
+<ul><li>Une procédure non mise à jour.</li><li>Un équipement dont l'étalonnage est expiré.</li><li>Une formation non documentée.</li><li>Un enregistrement incomplet.</li><li>Une modification technique sans justification documentaire suffisante.</li></ul>À la fin, il classe les constats et propose les suites à donner.
+5. Système de score et de progression
+Mettre en place un système de récompenses motivant :
+<ul><li>+100 points pour une anomalie correctement détectée.</li><li>+50 points pour une justification pertinente.</li><li>Bonus de rapidité lorsque le joueur conserve une bonne précision.</li><li>Pénalité pour les faux signalements.</li><li>Bonus pour une analyse de cause racine cohérente.</li><li>Trois étoiles par mission selon la qualité du travail.</li><li>Progression d'expérience et badges à débloquer.</li></ul>Badges :
+<ul><li>Inspecteur junior.</li><li>Expert en traçabilité.</li><li>Détective des non-conformités.</li><li>Spécialiste CAPA.</li><li>Auditeur qualité.</li><li>Champion QA orthopédique.</li></ul>La précision doit compter davantage que la vitesse, car l'assurance qualité médicale exige rigueur et traçabilité.
+6. Progression narrative
+Créer cinq étapes de carrière :
+<ol><li>Découverte du laboratoire : inspection visuelle et vocabulaire des implants.</li><li>Contrôle qualité : dimensions, identification et documentation.</li><li>Investigation : essais simulés, anomalies et non-conformités.</li><li>Système qualité : CAPA, traçabilité et audit.</li><li>Mission finale : revue globale du dossier d'un implant fictif.</li></ol>Chaque étape introduit progressivement de nouvelles notions.
+7. Interface utilisateur
+Créer les écrans suivants :
+<ul><li>Menu principal.</li><li>Carte du laboratoire.</li><li>Sélection des missions.</li><li>Vue interactive d'un implant d'épaule.</li><li>Fiche de contrôle qualité.</li><li>Tableau de résultats simulés.</li><li>Formulaire de déclaration de non-conformité.</li><li>Écran d'analyse de cause racine.</li><li>Tableau des scores et des badges.</li><li>Écran de fin de mission avec correction pédagogique.</li></ul>Prévoir un bouton d'aide qui explique les termes techniques sans révéler directement la réponse.
+8. Réalisme qualité et réglementaire
+Intégrer progressivement des notions de qualité applicables aux dispositifs médicaux :
+<ul><li>Gestion des risques.</li><li>Maîtrise documentaire.</li><li>Traçabilité.</li><li>Contrôle des fournisseurs.</li><li>Contrôle des équipements de mesure.</li><li>Non-conformités.</li><li>Actions correctives et préventives.</li><li>Vérification et validation.</li><li>Gestion des modifications.</li><li>Libération des lots selon des critères documentés.</li></ul>Les missions peuvent évoquer les principes d'ISO 13485, d'ISO 14971 et du règlement européen MDR 2017/745.
+Ne pas inventer de règles réglementaires en les présentant comme des obligations officielles. Les exigences exactes doivent être vérifiées dans des sources à jour. Ne pas confondre les contrôles qualité de fabrication avec la validation clinique.
+9. Exigences techniques
+Créer un jeu jouable directement dans un navigateur avec HTML, CSS et JavaScript.
+Le jeu doit comprendre :
+<ul><li>Une interface responsive sur ordinateur et mobile.</li><li>Des interactions à la souris et au toucher.</li><li>Des missions réellement jouables.</li><li>Un système de score, un chronomètre et des récompenses.</li><li>Des explications après chaque mission.</li><li>Une sauvegarde locale de la progression.</li><li>Des animations et des effets sonores optionnels.</li><li>Un code structuré et facile à faire évoluer.</li><li>Aucune clé API ou dépendance payante obligatoire.</li></ul>Créer des données fictives clairement identifiées et un système permettant d'ajouter de nouvelles missions.
+10. Première version à développer
+Commencer par un MVP complet contenant trois missions :
+<ol><li>Inspection visuelle d'un implant d'épaule.</li><li>Contrôle dimensionnel avec des limites de scénario.</li><li>Investigation d'une non-conformité et choix d'une action CAPA.</li></ol>Le résultat doit être immédiatement jouable, visuellement soigné, intuitif et pédagogique.
+Fournir l'intégralité du code nécessaire, les instructions de lancement et un moyen simple de recommencer une mission.
+L'objectif final est de créer une expérience indie immersive qui fait découvrir le métier d'ingénieur assurance qualité dans l'industrie des implants d'épaule, en apprenant par le jeu et par l'analyse d'erreurs réalistes mais entièrement simulées.
